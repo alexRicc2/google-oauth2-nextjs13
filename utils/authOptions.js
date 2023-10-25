@@ -9,7 +9,7 @@ export const authOptions = {
       authorization: {
         params: {
           scope: 'https://www.googleapis.com/auth/webmasters.readonly https://www.googleapis.com/auth/analytics.readonly',
-          prompt: "consent", // Это заставит пользователя подтвердить доступ даже если он уже предоставлен
+          prompt: "consent", 
         },
       },
     }),
